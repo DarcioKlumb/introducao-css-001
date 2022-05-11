@@ -1,0 +1,66 @@
+/*resete mais basico abaixo, para configurar toda página geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: #262626;
+  }
+  main {
+    background-image: url("../img/download.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    /*altura | largura*/
+    /* height | widht */
+    background-size: 130px 90px;
+    background-position: center center;
+    height: 100vh;
+}
+
+   
+/*RGB*/
+/*RED*/
+/*GREEN*/
+/*BLUE*/
+/*PODE SER POR HEXADECIMAL */
+/*color: red;*/
+/*color: #ff0000 = ff vermelho.. 00 verde .. 00 azul*/
+/*transparencia = rgba = (255, 0 , 0.1) este 0,1 significa 10% preenchido*/
+
+h1 {
+    color: #592796;
+    /*opacity deixa opaco*/
+    opacity: 0.95;
+    font-size: 20px; /*tamanho do h1*/
+    font-weight: 700; /*larguras do h1*/
+    font-family: sans-serif; /*font usada no h1*/
+}
+h2 {
+    font-size: 18px; /*tamanho do h2*/
+    color: white;
+}
+table {
+    width: 80%;
+}
+section {
+    color: aqua;
+}
+/* chamamos a id identificada na aba index*/
+#segunda-section {
+    color: blue;
+}
+#terceira-section {
+    color: black;
+}
+.dark-color {
+    color: #af2727;
+}
+
+/*section {
+    width: 50%;
+}*/
